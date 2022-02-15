@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SouthSystemTest</string>
+    <string name="events">Eventos</string>
+    <string name="action_share_via">Compartilhar através de</string>
+    <string name="action_share">Compartilhar</string>
+    <string name="checkedIn">Check-In realizado com sucesso!</string>
+    <string name="checkedInFailed">Um erro inesperado aconteceu!</string>
+    <string name="action_checkin">Check-In no evento</string>
+    <string name="placeholder_error_label">Um erro ocorreu!</string>
+    <string name="name_hint">Nome</string>
+    <string name="email_hint">Email</string>
+    <string name="action_confirm">Confirmar</string>
+</resources>

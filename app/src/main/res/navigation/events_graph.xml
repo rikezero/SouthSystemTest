@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/events_graph"
+    app:startDestination="@id/eventsListFragment">
+
+    <fragment
+        android:id="@+id/eventsListFragment"
+        android:name="com.example.southsystemtest.ui.eventslist.EventsListFragment"
+        android:label="EventsListFragment"
+        tools:layout="@layout/event_list_fragment">
+        <action
+            android:id="@+id/action_list_to_detail"
+            app:destination="@id/eventDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/eventDetailFragment"
+        android:name="com.example.southsystemtest.ui.eventdetail.EventDetailFragment"
+        android:label="EventDetailFragment"
+        tools:layout="@layout/event_details_fragment">
+        <argument
+            android:name="event"
+            app:argType="com.example.southsystemtest.data.model.EventListResponseItem" />
+    </fragment>
+
+</navigation>

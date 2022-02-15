@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="VeilRecyclerStyle" >
+        <item name="veilFrame_baseAlpha">0.6</item>
+        <item name="veilFrame_baseColor">@color/colorSilverChalice</item>
+        <item name="veilFrame_highlightAlpha">1.0</item>
+        <item name="veilFrame_highlightColor">@color/colorMineShaft</item>
+        <item name="veilFrame_radius">@dimen/cornerMedium</item>
+        <item name="veilFrame_shimmerEnable">true</item>
+        <item name="veilFrame_veiled">false</item>
+    </style>
+
+    <style name="TextAppearance" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextAppearance.Body">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.Body.Regular">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!--BOTTON SHEET STYLES-->
+    <style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottom_sheet_rounded</item>
+    </style>
+</resources>
